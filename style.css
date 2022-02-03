@@ -13,6 +13,11 @@ body{
     background-color: rgb(252, 158, 142);
 }
 
+.float-way .box{
+    max-width: 30%;
+    float: left;
+}
+
 .inline-block-way .box {
     /* display in line block */
     display: inline-block;
@@ -22,12 +27,21 @@ body{
 }
 
 .box-1{
- max-width: 49%;  
+ /* max-width: 49%;   */
 }
 .box-2{
-    max-width: 49%;
+    float: right;
+    /* max-width: 49%; */
 }
 .box-3{
-    max-width: initial;
+    /* max-width: initial; */
+}
+
+.clearfix{
+    clear: both;
+}
+
+.good-float a{
+    float: right;
 }
 
