@@ -11,5 +11,13 @@ body{
     padding: 10px;
     margin: 10px;
     background-color: rgb(252, 158, 142);
+
+.inline-block-way.box {
+    /* display in line block */
+    display: inline-block;
+    max-width: 30%;
+    min-height: 215px;
+    vertical-align: top;
 }
+
 
